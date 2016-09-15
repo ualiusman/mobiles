@@ -1,0 +1,76 @@
+﻿@model Mobiles.Models.Mobile
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Edit", "MobileManager", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Mobile</legend>
+
+        @Html.HiddenFor(model => model.MobileId)
+
+
+        
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ManufacturerId, "Manufacturer")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("ManufacturerId", String.Empty)
+            @Html.ValidationMessageFor(model => model.ManufacturerId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Model)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Model)
+            @Html.ValidationMessageFor(model => model.Model)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Price)
+        </div>
+
+        <div class="display-label">
+         @Html.Label("Image")
+        </div>
+        <div class="display-label">
+         <img width="100" height="60" src="@Url.Content("~/Data/Images/"+ Model.Image)" alt="Image" />
+        </div>
+
+        <div class="editor-label">
+            @Html.HiddenFor(model => model.Image)
+        </div>
+        <div class="editor-label">
+            <input type="file" name="file" />
+        </div>
+        <div class="editor-label">
+           @Html.LabelFor(model => model.IsActive)
+        </div>
+        <div class="editor-label">
+            @Html.EditorFor(model => model.IsActive)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

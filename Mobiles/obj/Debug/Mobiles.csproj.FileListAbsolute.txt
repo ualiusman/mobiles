@@ -1,0 +1,99 @@
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\Mobiles.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\Mobiles.pdb
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\Antlr3.Runtime.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.Core.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\EntityFramework.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\Newtonsoft.Json.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Net.Http.Formatting.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Helpers.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Http.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Http.WebHost.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Mvc.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Optimization.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Razor.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.WebPages.Deployment.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.WebPages.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.WebPages.Razor.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\WebGrease.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\WebMatrix.Data.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\WebMatrix.WebData.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\EntityFramework.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\Newtonsoft.Json.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Net.Http.Formatting.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Helpers.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Http.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Http.WebHost.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Mvc.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.Razor.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.WebPages.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.WebPages.Deployment.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\System.Web.WebPages.Razor.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\WebMatrix.Data.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\WebMatrix.WebData.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.Core.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\obj\Debug\Mobiles.dll
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\obj\Debug\Mobiles.pdb
+C:\Users\uali\Documents\Visual Studio 2012\Projects\Mobiles\Mobiles\obj\Debug\Mobiles.csprojResolveAssemblyReference.cache
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Mobiles.dll.config
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Mobiles.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Mobiles.pdb
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Antlr3.Runtime.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.AspNet.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.Core.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.OAuth.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.OpenId.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\EntityFramework.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Microsoft.Web.Infrastructure.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Newtonsoft.Json.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Net.Http.Formatting.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Helpers.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Http.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Http.WebHost.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Mvc.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Optimization.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Razor.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.WebPages.Deployment.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.WebPages.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.WebPages.Razor.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\WebGrease.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\WebMatrix.Data.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\WebMatrix.WebData.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\EntityFramework.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Newtonsoft.Json.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Net.Http.Formatting.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Helpers.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Http.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Http.WebHost.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Mvc.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.Razor.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.WebPages.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.WebPages.Deployment.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\System.Web.WebPages.Razor.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\WebMatrix.Data.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\WebMatrix.WebData.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.AspNet.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.Core.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.OAuth.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.OpenId.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\pa\MobilesD3\Mobiles\Mobiles\obj\Debug\Mobiles.csprojResolveAssemblyReference.cache
+E:\pa\MobilesD3\Mobiles\Mobiles\obj\Debug\Mobiles.dll
+E:\pa\MobilesD3\Mobiles\Mobiles\obj\Debug\Mobiles.pdb

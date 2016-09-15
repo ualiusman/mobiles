@@ -1,0 +1,177 @@
+﻿@model Mobiles.Models.Order
+
+@{
+    ViewBag.Title = "Index";
+}
+<script src="~/Scripts/jquery-1.7.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $('#rightColumn').hide();
+
+        $('#priceLabel').attr('disabled', true);
+        $('#distributorList').change(function () {
+            var selectedDistributedId = { distributorId: $('#distributorList').val() }
+            $.ajax({
+                url: '@Url.Action("GetManufacturerList", "Product")',
+                type: 'POST',
+                dataType: 'json',
+                data: JSON.stringify(selectedDistributedId),
+                contentType: 'application/json;',
+                success: function (response) {
+                    var items = "<option value=\"" + "0" + "\">" + "<--Select-->" + "</option>";
+                    $.each(response.manufacturers, function (i, item) {
+                        items += "<option value=\"" + item.Value + "\">" + item.Text + "</option>";
+                    });
+                    $('#manufacturerList').html(items);
+                }
+
+            });
+            $('#manufacturerList').attr("disabled", false);
+        });
+
+        $('#manufacturerList').change(function () {
+
+            if ($('#manufacturerList').val() != 0) {
+                var selectedManufacturerId = { manufacturerId: $('#manufacturerList').val() }
+                $.ajax({
+                    url: '@Url.Action("GetModelList", "Product")',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: JSON.stringify(selectedManufacturerId),
+                    contentType: 'application/json;',
+                    success: function (response) {
+                        var items = "<option value=\"" + "0" + "\">" + "<--Select-->" + "</option>";
+                        $.each(response.models, function (i, item) {
+                            items += "<option value=\"" + item.Value + "\">" + item.Text + "</option>";
+                        });
+                        $('#modelList').html(items);
+                    }
+
+
+                });
+                $('#modelList').attr("disabled", false);
+            }
+        });
+
+
+        $('#modelList').change(function () {
+
+            if ($('#modelList').val() != 0) {
+                var selectedModelId = { modelId: $('#modelList').val() }
+                $.ajax({
+                    url: '@Url.Action("GetModel", "Product")',
+                    type: 'POST',
+                    dataType: 'json',
+                    data: JSON.stringify(selectedModelId),
+                    contentType: 'application/json;',
+                    success: function (data) {
+                        $('#priceLabel').append(data.Price);
+                        $('#priceHidden').html(data.Price);
+                        var title = $('#modelImag').attr('src', '/Data/Images/' + data.Image);
+                        $('#priceLabel').show();
+                        $('#modelImag').show();
+                    }
+
+
+
+                });
+                $('#rightColumn').show();
+                $('#priceHidden').hide();
+                $('#priceLabel').html('Price:');
+                $('#lstCurrency').val(0);
+            }
+        });
+
+        $('#lstCurrency').change(function () {
+            
+            getRate("USD", $('#lstCurrency').val())
+        });
+
+    });
+
+   
+
+    function getRate(from, to) {
+        var script = document.createElement('script');
+        script.setAttribute('src', "http://query.yahooapis.com/v1/public/yql?q=select%20rate%2Cname%20from%20csv%20where%20url%3D'http%3A%2F%2Fdownload.finance.yahoo.com%2Fd%2Fquotes%3Fs%3D" + from + to + "%253DX%26f%3Dl1n'%20and%20columns%3D'rate%2Cname'&format=json&callback=parseExchangeRate");
+        document.body.appendChild(script);
+    }
+
+    function parseExchangeRate(data) {
+        var name = data.query.results.row.name;
+        var rate = parseFloat(data.query.results.row.rate, 2);
+        var p = $('#priceHidden').html();
+        var price = parseFloat(p);
+        $('#priceLabel').html('Price:' + (rate * price).toFixed(2).toString());
+    }
+
+    
+</script>
+@using (Html.BeginForm("ReceiveOrder","Product"))
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Manufacturer</legend>
+        <div style="display: inline-block; vertical-align: top;">
+            <div class="editor-label">
+                @Html.Label("Distributor")
+            </div>
+            <div class="editor-field">
+                @Html.DropDownList("Distributors", null, "<--Select-->", new { id = "distributorList" })
+            </div>
+
+            <div class="editor-label">
+                @Html.Label("Manufacturer")
+            </div>
+            <div class="editor-field">
+                @Html.DropDownList("Manufacturers", null, "<--Select-->", new { id = "manufacturerList", @disabled = "disabled" })
+            </div>
+
+            <div class="editor-label">
+                @Html.Label("Model")
+            </div>
+            <div class="editor-field">
+                @Html.DropDownList("MobileId", null, "<--Select-->", new { id = "modelList", @disabled = "disabled" })
+            </div>
+
+            <div class="editor-label">
+                @Html.Label("Name")
+                @Html.TextBox("ClientName", null, new { id = "clientName", required="required"})
+            </div>
+            
+            <div class="editor-label">
+                @Html.Label("Email")
+                @Html.TextBox("Email",null, new{ id="email", type="email", required="required"})
+            </div>
+            <div class="editor-label">
+                @Html.Label("Phone")
+                @Html.TextBox("Phone", null, new { id = "phone",type="number", required="required" })
+            </div>
+            <div class="editor-label">
+                @Html.Label("IMEI Code")
+                @Html.TextBox("IMEI", null, new { id = "imeiCode", type="number", required="required" })
+            </div>
+            <div>
+                @Html.Display("Result", null, new {id="result" })
+            </div>
+            <p>
+             <input type="submit" value="Unlock" />
+           </p>
+        </div>
+        <div id="rightColumn" style="display: inline-block; margin: 0px 0px 0px 100px;">
+            <div class="editor-label">
+                @Html.DropDownList("CurrencyList",null, null, new { id = "lstCurrency" })
+            </div>
+            <div class="editor-label">
+                @Html.Label("0", new { id = "priceLabel" })
+                @Html.Label("0", new { id = "priceHidden" })
+            </div>
+            <div class="editor-label">
+                <img width="200" height="150" id="modelImag" src="#" alt="image" />
+            </div>
+        </div>
+
+    </fieldset>
+}

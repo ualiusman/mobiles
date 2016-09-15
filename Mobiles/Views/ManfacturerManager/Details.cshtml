@@ -1,0 +1,35 @@
+﻿@model Mobiles.Models.Manufacturer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Manufacturer</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Distributor.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Distributor.Name)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Name)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Name)
+    </div>
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.IsActive)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.IsActive)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.ManufacturerId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
